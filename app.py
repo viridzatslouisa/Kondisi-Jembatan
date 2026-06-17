@@ -386,8 +386,6 @@ with col2:
 # KOMPOSISI KONDISI PER PERIODE
 # =====================================================
 
-st.markdown("## 📈 Komposisi Kondisi Jembatan per Periode")
-
 trend = (
     filtered.groupby(["periode_update", "kategori"])
     .size()
